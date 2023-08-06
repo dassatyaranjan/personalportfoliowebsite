@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satya - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(15, 15, 47);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            width: 100%;
+
+            background-color: rgb(10, 10, 96);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            margin: 23px 0;
+            width: 10px;
+            text-size-adjust: inherit;
+        }
+
+        nav ul li {
+            margin: 0 23px;
+            list-style: none;
+
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding-right: 0.8cm;
+            margin: 23px 0;
+            width: 10px;
+
+        }
+
+        nav ul li a:hover {
+            color: rgb(153, 153, 201);
+            font-size: 1.2rem;
+
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.4rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 100px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+
+        }
+
+        .leftSection {
+            font-size: 2rem;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightSection img {
+            width: 80%;
+            z-index: 1;
+
+
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+        }
+
+        .text-grey {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.8rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 55px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 110px;
+        }
+
+        .image-top {
+            width: 44px;
+
+            position: relative;
+            top: -48px;
+            left: -20px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 44px;
+            width: 150px;
+            font-size: 16px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 44px;
+            color: gray;
+            width: 150px;
+            font-size: 10px;
+        }
+
+        footer {
+            background-color: rgb(43 48 65);
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 24px 120px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 220px
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <nav>
+        <div class="left">Satya's Portfolio</div>
+        <div class="right">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/">About</a></li>
+                <li><a href="/">Qualification</a></li>
+                <li><a href="/">Projects</a></li>
+                <li><a href="/">Contacts</a></li>
+            </ul>
+        </div>
+
+        </div>
+
+    </nav>
+
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span style="color: rgb(170, 107, 228)">Satya</span>
+
+                <div>and I am a passionate</div>
+
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="newdp.png" alt="">
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-grey">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="htmllogo.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer (2016-2018)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus placeat repellendus ratione
+                        ab molestiae voluptatum harum magni, animi dignissimos sunt qui repudiandae praesentium.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="csslogo.png" alt="">
+                    <div class="vertical-title">
+                        CSS Developer (2018-2019)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus placeat repellendus ratione
+                        ab molestiae voluptatum harum magni, animi dignissimos sunt qui repudiandae praesentium.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="jslogo.png" alt="">
+                    <div class="vertical-title">
+                        JavaScript Developer (2019-2020)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus placeat repellendus ratione
+                        ab molestiae voluptatum harum magni, animi dignissimos sunt qui repudiandae praesentium.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="sqllogo.png" alt="">
+                    <div class="vertical-title">
+                        SQL Developer (2020-2021)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus placeat repellendus ratione
+                        ab molestiae voluptatum harum magni, animi dignissimos sunt qui repudiandae praesentium.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="pythonlogo.png" alt="">
+                    <div class="vertical-title">
+                        Python Developer (2021-2022)
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus placeat repellendus ratione
+                        ab molestiae voluptatum harum magni, animi dignissimos sunt qui repudiandae praesentium.
+                    </div>
+                </div>
+
+
+
+        </section>>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Satya's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contacts</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contacts</li>
+                    <li>Services</li>
+                </ul>
+
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contacts</li>
+                    <li>Services</li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright&#169; satyasportfolio.com | All rights reserved
+
+        </div>
+
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphics Designer', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
